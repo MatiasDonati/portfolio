@@ -6,7 +6,7 @@ import ReactImg from '../assets/react8.png';
 import Node from '../assets/node.png';
 import FireBase from '../assets/firebase.png';
 import GitHub from '../assets/github.png';
-import Tailwind from '../assets/tailwind.png';
+import Tailwind from '../assets/tailwind-css.png';
 
 const Skills = () => {
     return (
@@ -19,10 +19,10 @@ const Skills = () => {
                 </div>
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-                    <div className='shadow-[#040c16] hover:scale-110 duration-500'>
+                    {/* <div className='shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={Vsc} alt="Vsc icon" />
                         <p className='my-4'>VSC</p>
-                    </div>
+                    </div> */}
                     <div className=' shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto' src={HTML} alt="Html icon" />
                         <p className='my-4'>HTML</p>
@@ -52,8 +52,8 @@ const Skills = () => {
                         <p className='my-4'>FireBase</p>
                     </div>
                     <div className='shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />
-                        <p className='my-4'>FireBase</p>
+                        <img className='w-20 mx-auto' src={Tailwind} alt="FireBase icon" />
+                        <p className='my-4'>Tailwind</p>
                     </div>
                 </div>
             </div>
