@@ -18,7 +18,7 @@ const About = () => {
             <p>Hola, soy Matias Donati, un gusto conocerte. Date una vuelta.</p>
           </div>
           <div>
-            <p>Me apasiona construir softwares que mejoren la vida de los que me rodean. Me especializo en la creación de software para clientes que van desde individuos y pequeñas empresas hasta a las grandes corporaciones empresariales. ¿Qué harías si tuvieras un experto en software disponible a tu alcance?</p>
+            <p>Me especializo en construir sitios que mejoren la vida de los que me rodean. Trabajo para clientes que van desde individuos hasta pequeñas empresas. Todo lo hago con mucha pasión y dedicación. Me encantaría que mi próximo proyecto sea con vos.</p>
           </div>
         </div>
       </div>

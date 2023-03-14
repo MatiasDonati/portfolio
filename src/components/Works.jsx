@@ -4,6 +4,7 @@ import Yanilog from '../assets/projects/yanilog1.jpg'
 import Teclados from '../assets/projects/teclados1.jpg'
 import Traductor from '../assets/projects/traductor.jpg'
 import FoodReactApp from '../assets/projects/FoodReactApp.png'
+import Morfi from '../assets/projects/morfi.png'
 
 const Works = () => {
     return (
@@ -57,7 +58,7 @@ const Works = () => {
                         </div>
                     </div>
                     {/* Grid Item */}
-                    <div style={{ backgroundImage: `url(${FoodReactApp})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div style={{ backgroundImage: `url(${Morfi})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
