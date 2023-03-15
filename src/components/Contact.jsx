@@ -1,4 +1,4 @@
-import Logo1 from '../assets/logoPrueba1.png'
+import Logo3 from '../assets/LogoF5.png'
 
 const Contact = () => {
     return (
@@ -13,7 +13,7 @@ const Contact = () => {
                 <textarea className='bg-[#ccd6f6] p-2' name='message' rows='10' placeholder='Mensaje'></textarea>
                 <button className='text-white border-2 hover:bg-[#503CD1] hover:border-[#503CD1] px-4 py-3 my-4 mx-auto flex items-center'>Escribime!</button>
                 <div className='text-white px-4 py-3 my-[5px] mx-auto flex items-center'>
-                    <img src={Logo1} alt="Logo Image" style={{ width: '120px' }} />
+                    <img src={Logo3} alt="Logo Image" style={{ width: '100px' }} />
                 </div>
             </form>
         </div>

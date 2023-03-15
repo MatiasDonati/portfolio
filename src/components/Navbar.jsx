@@ -6,6 +6,7 @@ import LogoCV from '../assets/logo1.png'
 import Logo from '../assets/logoMatiasDonati.png'
 import Logo1 from '../assets/logoPrueba1.png'
 import Logo2 from '../assets/logoPrueba2.png'
+import Logo3 from '../assets/LogoF5.png'
 import { Link } from 'react-scroll'
 
 const Navbar = () => {
@@ -20,7 +21,7 @@ const Navbar = () => {
             <div>
                 {/* <img src={Logo1} alt="Logo Image" style={{ width: '50px' }} /> */}
                 <Link to="home" smooth={true} duration={1500}>
-                    <img className='cursor-pointer' src={Logo2} alt="Logo Image" style={{ width: '70px' }} />
+                    <img className='cursor-pointer' src={Logo3} alt="Logo Image" style={{ width: '70px' }} />
                 </Link>
             </div>
 
