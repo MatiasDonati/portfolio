@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
+
 @layer base {
     body {
         @apply font-[Raleway];
@@ -14,6 +15,15 @@
         @apply cursor-pointer
     }
 }
+
+h3{
+    color: brown;
+    font-family: cursive;
+}
+
+/* body{
+    font-family: 'Climate Crisis', cursive;
+} */
 
 .content-div {
     background-repeat: no-repeat;
