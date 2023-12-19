@@ -13,7 +13,7 @@ const Home = () => {
         '>Hola, mi nombre es</p>
 
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Matias Donati</h1>
-        <h2 className='ext-4xl sm:text-7xl font-bold text-[#8892b0]'>Full Stack Developer</h2>
+        <h2 className='ext-4xl sm:text-7xl font-bold text-[#8892b0]'>Desarrolador</h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>Soy un desarrollador ganas de armar y/o unirme a un equipo de trabajo donde pueda expandir  y aportar mis habilidades. Actualmente curso en la Universidad Tencológica Nacional la Tecnicatura Universitaria en Programación (Argentina - Buenos Aires). </p>
         <div>
           <Link to="works" smooth={true} duration={500}>

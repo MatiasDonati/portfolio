@@ -10,13 +10,13 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <p>Hola, soy Matias Donati, un gusto conocerte. Date una vuelta.</p>
+            <p>Hola, soy Matias Donati, un palcer.</p>
           </div>
           <div>
             <p>
-              Me especializo en construir sitios que mejoren la vida de los que
-              me rodean. Trabajo para clientes que van desde individuos hasta
-              pequeñas empresas. Todo lo hago con mucha pasión y dedicación. Me
+              Me especializo en construir Apps y sitios que mejoren la vida de los que
+              me rodean. He Trabajado para distintos perfiles de clientes
+              . Todo lo hago con mucha pasión y dedicación. Me
               encantaría que mi próximo proyecto sea con vos.
             </p>
           </div>
