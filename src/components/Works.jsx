@@ -5,7 +5,8 @@ import Teclados from "../assets/projects/teclados1.jpg";
 import Traductor from "../assets/projects/traductor.jpg";
 import FoodReactApp from "../assets/projects/FoodReactApp.png";
 import Morfi from "../assets/projects/morfi.png";
-import Yunka from "../assets/projects/yunka.jpg"
+import Yunka from "../assets/projects/yunka.jpg";
+import Frida from "../assets/projects/FRIDA.png"
 
 const Works = () => {
   return (
@@ -26,6 +27,34 @@ const Works = () => {
           // style={{ backgroundImage: `url(${WorkImg})` }}
           className="grid sm:grid-cols-2 md:grid-cols-3 gap-4"
         >
+
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${Frida})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Juego - Python
+              </span>
+              <div className="pt-8 text-center">
+                {/* <a href="https://yunkaatoq.org/" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a> */}
+                <a
+                  href="https://github.com/MatiasDonati/Frida"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${Yunka})` }}
